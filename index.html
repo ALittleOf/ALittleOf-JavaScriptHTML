@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>R A C H</title>
+<!-- this is my website title -->
+<style>
+    body {
+        text-align: center; 
+        color: gray;
+    }
+</style>
+<!-- importing JS file -->
+<script src="script.js"></script>
+</head>
+
+
+
+<body>
+    <!--
+    h = title (h[1] to h[i])
+    p = paragraph
+    a = link
+    -->
+
+    <h1>
+        Welcome to SUTD
+    </h1>
+
+    <p>
+        Today is the 11th of January 2021
+    </p>
+
+    <p></p>
+    <p></p>
+    <p></p>
+
+    <br/>
+
+    <p><b>Calculator goes here</b></p>
+    
+    <input id ="inputOne" type = "number" />
+    <select id="operator">
+        <option>+</option>
+        <option>-</option>
+        <option>*</option>
+        <option>/</option>
+    </select>
+    <input id="inputTwo" type = "number" />
+    <button onClick = "calculate()">Calculate</button>
+
+    <p>Result</p>
+    <p id="result"></p>
+
+    </br>
+    <p></p>
+    <p><b>Get Shit Done</b></p>
+    <div id="todo">
+        <p> New Task: </p>
+        <input type = "text" />
+        <button onClick="addTask()">Add</button>
+        <p>Delete Task:</p>
+        <input type = "text" />
+        <button onClick="">Delete</button>
+        <p></p>
+        <button onClick="">Delete All</button>
+    </div>
+
+</body>
+</html>
